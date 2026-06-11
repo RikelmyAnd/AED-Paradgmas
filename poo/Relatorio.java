@@ -36,9 +36,10 @@ public class Relatorio {
     public void gerarRelatorio() {
         System.out.println("Relatório de Alunos:");
         for (Aluno aluno : alunos) {
-            System.out.println("Nome: " + aluno.getNome());
-            System.out.println("Matrícula: " + aluno.getMatricula());
-            System.out.println("Frequência: " + aluno.getFrequencia() + "%");
+            System.out.print("Nome: " + aluno.getNome() +", ");
+            System.out.print("Matrícula: " + aluno.getMatricula() +", ");
+            System.out.print("Média: " + aluno.calcularMedia() +", ");
+            System.out.print("Frequência: " + aluno.getFrequencia() + "%, ");
             System.out.println("Situação: " + aluno.determinarSituacao());
         }
         System.out.println("Fim do relatório\n");

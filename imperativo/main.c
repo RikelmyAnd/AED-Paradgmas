@@ -31,10 +31,11 @@ int main() {
 
     printf("Relatório de Alunos:\n");
     for (int i = 0; i < total; i++) {
-        printf("Nome: %s, Matrícula: %d, Média: %.2f, Situação: %s\n", 
+        printf("Nome: %s, Matrícula: %d, Média: %.2f, Frequência: %d%%, Situação: %s\n", 
                alunos[i].nome, 
                alunos[i].matricula, 
                alunos[i].media, 
+               alunos[i].frequencia,
                alunos[i].situacao);
     }
     printf("Total de alunos processados: %d\n", total);
