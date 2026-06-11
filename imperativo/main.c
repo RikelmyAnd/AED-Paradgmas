@@ -2,8 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <locale.h>
+#include <windows.h>
 
 int main() {
+
+    SetConsoleOutputCP(CP_UTF8);
+
     FILE *file = fopen("../alunos.txt", "r");
     if (file == NULL) {
         perror("Erro ao abrir o arquivo");
