@@ -12,4 +12,6 @@ typedef struct {
     char situacao[30];
 } Aluno;
 
+void processarAlunos(Aluno *alunos);
+
 #endif

@@ -4,7 +4,7 @@
 #include <string.h>
 
 int main() {
-    FILE *file = fopen("alunos.txt", "r");
+    FILE *file = fopen("../alunos.txt", "r");
     if (file == NULL) {
         perror("Erro ao abrir o arquivo");
         return 1;
