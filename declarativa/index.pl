@@ -14,13 +14,13 @@ media(Nome, Media) :-
 
 aprovado(Nome) :-
     media(Nome, Media),
-    Media >= 7.0,
+    Media >= 6.0,
     frequencia(Nome, Frequencia),
     Frequencia >= 75.
 
 reprovado(Nome) :-
     media(Nome, Media),
-    (Media < 7.0).
+    (Media < 6.0).
 
 reprovado(Nome) :-
     frequencia(Nome, Frequencia),

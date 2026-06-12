@@ -4,7 +4,7 @@ const calcularMedia = (n1, n2, n3) => (n1 + n2 + n3) / 3;
 
 const determinarSituacao = (media, frequencia) => {
     if (frequencia < 75) return 'Reprovado por falta';
-    if (media >= 7) return 'Aprovado';
+    if (media >= 6.0) return 'Aprovado';
     return 'Reprovado por nota';
 }
 

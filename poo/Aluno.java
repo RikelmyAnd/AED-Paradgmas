@@ -25,7 +25,7 @@ public class Aluno {
         double media = calcularMedia();
         if (frequencia < 75) {
             return "Reprovado por falta";
-        } else if (media >= 7.0) {
+        } else if (media >= 6.0) {
             return "Aprovado";
         } else {
             return "Reprovado por nota";

@@ -9,7 +9,7 @@ void processarAlunos(Aluno *alunos) {
 
     if (alunos->frequencia < 75) {
         strcpy(alunos->situacao, "Reprovado por Frequência");
-    } else if (alunos->media >= 7.0) {
+    } else if (alunos->media >= 6.0) {
         strcpy(alunos->situacao, "Aprovado");
     } else {
         strcpy(alunos->situacao, "Reprovado por Nota");
