@@ -22,3 +22,19 @@ O formato esperado para saída é um relátorio exibindo os dados processados do
 
 Nome: Ana, Matrícula: 2024001, Média: 8,16, Frequência: 85%, Situação: Aprovado
 
+Tópico 2 - Escolha das linguagens:
+
+As linguagens foram escolhidas seguindo três critérios principais: a sugestão do roteiro da atividade, a bagagem de conhecinemtno prévio e a facilidade configuração e ampla documentação na internet. Aliando esses critérios às características técnicas necessárias para cada paradigma, definiu-se:
+
+Imperativa (C): Escolhida por ser a linguagem base do paradigma imperativo, permitindo um controle explícito e passo a passo do fluxo de execução e a manipulação direta da memória.
+
+Orientada a objeto (Java): Adotada por sua forte tipagem e rigoroso encapsulamento, sendo ideal para representar a classe Aluno como um objeto que detém seus propios dados e comportamentos.
+
+Funcional (JavaScript): Utilizada devido aos seus métodos nativos de manipulação de arrays (como map e filter), permitindo criar um fluxo de dados imutável e declarativo, sem necessitar de laços de repetição tradicionais.
+
+Declarativa/Lógica (Prolog): Escolhida por ser a referencia clássica em programação lógica, focando na declaração de fatos e regras de inferência.
+
+Tópico 3 - Comparação de Legibilidade:
+
+Ao comparar as quatro implementações, a linguagem com maior Legibilidade foi o Prolog, utilizada na etapa declarativa. Enquanto na versão imperativa em C, era exigido uma massiva quantidade de detalhes sintáticos (como ponteiros, uso de & e formatação rígifa no fscanf) e a versão em Java demanda a leitura de multiplos arquivos e classes estruturadas, o Prolog dispensa quase toda essa complexidade.
+ A organização do código lógico se assemelha, a uma estrutura de parágrafos de texto convencial. A mesma permite a utilização de nomes claros, tantos nas variavéis como nas regras escritas no código, com a utilização de termos proximos da linguagem humana, como "write" para a impressão dos dados, "is" para a atribuição de valores a uma variavél. Isso torna extremamente fácil entender o fluxo do programa: basta ler os fatos (quem são os alunos) e as regras (o que define a aprovação). Essa clareza facilita não apenas a visualição geral do sistema, mas também a localização imediata de onde cada regra de negócio foi implementada, definindo o Prolog como o código mais limpo para leitura.
