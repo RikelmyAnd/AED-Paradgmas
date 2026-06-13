@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const calcularMedia = (n1, n2, n3) => (n1 + n2 + n3) / 3;
+const calcularMedia = (nota1, nota2, nota3) => (nota1 + nota2 + nota3) / 3;
 
 const determinarSituacao = (media, frequencia) => {
     if (frequencia < 75) return 'Reprovado por falta';
